@@ -1,0 +1,34 @@
+*{
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+}
+
+.sidebar {
+    background-image: url("richard-cordones-sYoZ2tZjC0Y-unsplash.jpg");
+    height: 100vh;
+    width: 500px;
+    background-size: 100% 100vh;
+    border: 1px black solid
+}
+
+.logo-container {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(186, 226, 226, 0.3);
+    margin-top: 180px;
+    text-align: center;
+}
+
+.logo {
+    width: auto;
+    max-height: 90px;
+}
