@@ -1,15 +1,44 @@
-*{
-
-}
-
 form {
     display: flex;
     flex-direction: column;
+    background-color: rgba(233, 240, 242, 0.6);
+    border-bottom: 2px solid rgb(196, 213, 218);
+}
+
+input {
+    margin-left: 20px;
+    display: flex;
+    align-self: right;
+}
+
+button {
+    width: 120px;
+    margin: 20px 0px 10px 15px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    background-color: rgb(175, 219, 237);
+}
+
+p {
+    margin-left: 10px;
 }
 
 .container {
     display:flex;
-    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action {
+    
+}
+
+.form-section {
+    background-color: azure;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .sidebar {
@@ -31,4 +60,31 @@ form {
 .logo {
     width: auto;
     max-height: 90px;
+}
+
+.input-container {
+    padding: 20px 30px 20px 30px;
+    width: 700px;
+    display: flex;
+}
+
+.right-label {
+
+    margin-left: 30px;
+}
+
+#lastname {
+    margin-left: 90px;
+}
+
+#email {
+    margin-left:62px;
+}
+
+#number {
+    margin-left: 57px;
+}
+
+#password {
+    margin-left: 27px;
 }

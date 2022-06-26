@@ -16,25 +16,25 @@
         <div class="form-section">
             <p class="call-to-action">Sign up here!</p>
             <form action="http://httpbin.org.post" method="post">
-               <div>
+               <div class="input-container">
                 <label for="firstname">FIRST NAME</label>
                 <input type="text" id="firstname" name="firstname" placeholder="Bob">
                
-                <label for="lastname">LAST NAME</label>
+                <label for="lastname" class="right-label">LAST NAME</label>
                 <input type="text" id="lastname" name="lastname" placeholder="Smith">
                </div>
-               <div>
+               <div class="input-container">
                 <label for="email">EMAIL</label>
                 <input type="email" id="email" name="email" placeholder="name@example.com">
 
-                <label for="number">PHONE NUMBER</label>
+                <label for="number" class="right-label">PHONE NUMBER</label>
                 <input type="number" id="number" name="number" placeholder="07123456789">
                </div>
-               <div>
+               <div class="input-container">
                 <label for="password">PASSWORD</label>
                 <input type="password" id="password" name="password">
 
-                <label for="password-confirm">CONFIRM PASSWORD</label>
+                <label for="password-confirm" class="right-label">CONFIRM PASSWORD</label>
                 <input type="password" id="password-confirm" name="password-confirm">
                </div>
             </form>
