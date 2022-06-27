@@ -1,3 +1,8 @@
+@font-face {
+    font-family:"Norse-Bold";
+    src:url("Norse-Bold.otf");
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -26,6 +31,8 @@ p {
 .container {
     display:flex;
     justify-content: center;
+    font-family: "Norse-Bold";
+    font-size: large;
 }
 
 .call-to-action {
@@ -87,4 +94,12 @@ p {
 
 #password {
     margin-left: 27px;
+}
+
+#password:invalid {
+    border: red solid 3px;
+}
+
+#password:valid {
+    border: green solid 3px;
 }
